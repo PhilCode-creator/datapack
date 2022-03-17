@@ -1,8 +1,0 @@
-{
-    "replace": false,
-    "values": [
-      "#minecraft:lapis_ores",
-      "minecraft:nether_quartz_ore",
-      "minecraft:nether_gold_ore"
-    ]
-  }
