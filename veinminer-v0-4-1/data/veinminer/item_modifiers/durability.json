@@ -1,0 +1,558 @@
+[
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00049236829,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": { "mainhand": {"tag": "veinminer:tools/netherite"} }
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:alternative",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"enchantments": [ {"enchantment": "minecraft:unbreaking"} ]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00049236829,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/netherite",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 1} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.25}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00049236829,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/netherite",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 2} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.33}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00049236829,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/netherite",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 3} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.5}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00064061499,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": { "mainhand": {"tag": "veinminer:tools/diamond"} }
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:alternative",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"enchantments": [ {"enchantment": "minecraft:unbreaking"} ]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00064061499,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/diamond",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 1} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.25}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00064061499,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/diamond",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 2} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.33}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.00064061499,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/diamond",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 3} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.5}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.005,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": { "mainhand": {"tag": "veinminer:tools/iron"} }
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:alternative",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"enchantments": [ {"enchantment": "minecraft:unbreaking"} ]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.005,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/iron",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 1} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.25}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.005,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/iron",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 2} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.33}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.005,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/iron",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 3} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.5}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.03125,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": { "mainhand": {"tag": "veinminer:tools/golden"} }
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:alternative",
+					"terms": [
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": {
+									"mainhand": {
+										"enchantments": [ {"enchantment": "minecraft:unbreaking"} ]
+									}
+								}
+							}
+						},
+						{
+							"condition": "minecraft:entity_properties",
+							"entity": "this",
+							"predicate": {
+								"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+							}
+						}
+					]
+				}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.03125,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/golden",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 1} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.25}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.03125,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/golden",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 2} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.33}
+			}
+		]
+	},
+	{
+		"function": "minecraft:set_damage",
+		"damage": -0.03125,
+		"add": true,
+		"conditions": [
+			{
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"equipment": {
+						"mainhand": {
+							"tag": "veinminer:tools/golden",
+							"enchantments": [ {"enchantment": "minecraft:unbreaking", "levels": 3} ]
+						}
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {
+					"condition": "minecraft:entity_properties",
+					"entity": "this",
+					"predicate": {
+						"equipment": { "mainhand": {"nbt": "{Unbreakable:1b}"} }
+					}
+				}
+			},
+			{
+				"condition": "minecraft:inverted",
+				"term": {"condition": "minecraft:random_chance", "chance": 0.5}
+			}
+		]
+	}
+]

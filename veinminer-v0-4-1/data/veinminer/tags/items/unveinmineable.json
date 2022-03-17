@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:cobblestone",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:granite",
+    "minecraft:tuff",
+    "minecraft:deepslate",
+    "minecraft:cobbled_deepslate",
+    "minecraft:torch",
+    "minecraft:rail",
+    "minecraft:powered_rail",
+    "minecraft:repeater",
+    "minecraft:comparator",
+    "minecraft:redstone_torch",
+    "minecraft:scaffolding",
+    "minecraft:slime_block",
+    "minecraft:honey_block",
+    "minecraft:tnt",
+    "minecraft:string",
+    "#minecraft:flowers",
+    "#minecraft:tall_flowers"
+  ]
+}

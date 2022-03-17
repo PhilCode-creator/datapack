@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "values": [
+      "#veinminer:xp/little_xp",
+      "#veinminer:xp/small_xp",
+      "#veinminer:xp/medium_xp",
+      "#veinminer:xp/large_xp"
+    ]
+  }
