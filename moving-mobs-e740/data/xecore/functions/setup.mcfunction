@@ -1,2 +1,0 @@
-scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time
-tellraw @a ["",{"text":"moving mobs installed","color":"#50D850"},{"text":" ","color":"dark_red"},{"text":" ","color":"dark_blue"},{"text":"[Made by Xelasto_]","color":"#E54143","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/xelasto_/"},"hoverEvent":{"action":"show_text","contents":"visit author's page"}}]
